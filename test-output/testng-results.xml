@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="4" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-27T19:54:08 IST" name="Suite" finished-at="2022-06-27T19:54:35 IST" duration-ms="27072">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:salesforceframe.testcases.CucumberRunner@303cf2ba]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:salesforceframe.testcases.TC000_LoginPage@24569dba]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2022-06-27T19:54:08 IST" name="Test" finished-at="2022-06-27T19:54:35 IST" duration-ms="27072">
+      <class name="salesforceframe.testcases.CucumberRunner">
+        <test-method is-config="true" signature="setValues()[pri:0, instance:salesforceframe.testcases.CucumberRunner@303cf2ba]" started-at="2022-06-27T19:54:08 IST" name="setValues" finished-at="2022-06-27T19:54:08 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValues -->
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:salesforceframe.testcases.CucumberRunner@303cf2ba]" started-at="2022-06-27T19:54:24 IST" name="setUpClass" finished-at="2022-06-27T19:54:24 IST" duration-ms="132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="startTestCase()[pri:0, instance:salesforceframe.testcases.CucumberRunner@303cf2ba]" started-at="2022-06-27T19:54:24 IST" name="startTestCase" finished-at="2022-06-27T19:54:24 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTestCase -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:salesforceframe.testcases.CucumberRunner@303cf2ba]" started-at="2022-06-27T19:54:24 IST" name="beforeMethod" finished-at="2022-06-27T19:54:27 IST" duration-ms="2822" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:salesforceframe.testcases.CucumberRunner@303cf2ba]" started-at="2022-06-27T19:54:27 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-06-27T19:54:35 IST" duration-ms="7717" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with positive data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[login functionality]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:salesforceframe.testcases.CucumberRunner@303cf2ba]" started-at="2022-06-27T19:54:35 IST" name="afterMethod" finished-at="2022-06-27T19:54:35 IST" duration-ms="160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:salesforceframe.testcases.CucumberRunner@303cf2ba]" started-at="2022-06-27T19:54:35 IST" name="tearDownClass" finished-at="2022-06-27T19:54:35 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- salesforceframe.testcases.CucumberRunner -->
+      <class name="salesforceframe.testcases.TC000_LoginPage">
+        <test-method is-config="true" signature="startReport()[pri:0, instance:salesforceframe.testcases.TC000_LoginPage@24569dba]" started-at="2022-06-27T19:54:08 IST" name="startReport" finished-at="2022-06-27T19:54:08 IST" duration-ms="171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method is-config="true" signature="Pre_Information()[pri:0, instance:salesforceframe.testcases.TC000_LoginPage@24569dba]" started-at="2022-06-27T19:54:08 IST" name="Pre_Information" finished-at="2022-06-27T19:54:08 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Pre_Information -->
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:salesforceframe.testcases.TC000_LoginPage@24569dba]" started-at="2022-06-27T19:54:08 IST" name="setUpClass" finished-at="2022-06-27T19:54:08 IST" duration-ms="347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="startTestCase()[pri:0, instance:salesforceframe.testcases.TC000_LoginPage@24569dba]" started-at="2022-06-27T19:54:08 IST" name="startTestCase" finished-at="2022-06-27T19:54:08 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTestCase -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:salesforceframe.testcases.TC000_LoginPage@24569dba]" started-at="2022-06-27T19:54:08 IST" name="beforeMethod" finished-at="2022-06-27T19:54:12 IST" duration-ms="4163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="loginpage_test()[pri:0, instance:salesforceframe.testcases.TC000_LoginPage@24569dba]" started-at="2022-06-27T19:54:12 IST" name="loginpage_test" finished-at="2022-06-27T19:54:20 IST" duration-ms="7481" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginpage_test -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:salesforceframe.testcases.TC000_LoginPage@24569dba]" started-at="2022-06-27T19:54:20 IST" name="afterMethod" finished-at="2022-06-27T19:54:24 IST" duration-ms="4167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:salesforceframe.testcases.TC000_LoginPage@24569dba]" started-at="2022-06-27T19:54:24 IST" name="tearDownClass" finished-at="2022-06-27T19:54:24 IST" duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method is-config="true" signature="endResult()[pri:0, instance:salesforceframe.testcases.TC000_LoginPage@24569dba]" started-at="2022-06-27T19:54:35 IST" name="endResult" finished-at="2022-06-27T19:54:35 IST" duration-ms="529" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endResult -->
+      </class> <!-- salesforceframe.testcases.TC000_LoginPage -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
